@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id');
-            $table->integer('comment_id');
+            $table->integer('comment_id')->nullable();
             $table->string('title', 100);
             $table->date('date');
             $table->text('body');
