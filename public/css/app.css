@@ -1,0 +1,21 @@
+
+.posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 60px;
+}
+
+.posts-list li {
+    background-color: rgba(117, 190, 218, 0.5); 
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 150px;
+    overflow: scroll;
+}
+
+.post {
+    padding: 10px;
+}
